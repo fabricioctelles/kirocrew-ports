@@ -1,7 +1,7 @@
 {
   "name": "impeccable",
   "description": "Frontend design specialist — audits, critiques, polishes, and improves UI/UX using the Impeccable design methodology",
-  "model": "claude-sonnet-4-20250514",
+  "model": "claude-opus-4.5",
   "tools": [
     "execute_bash",
     "fs_read",
