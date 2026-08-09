@@ -1,0 +1,28 @@
+{
+  "name": "hyperresearch",
+  "description": "Deep research agent using V8 pipeline — 16-step tier-adaptive from 30-min answers to adversarially-audited reports",
+  "model": "claude-sonnet-4-20250514",
+  "tools": [
+    "execute_bash",
+    "fs_read",
+    "fs_write",
+    "code",
+    "grep",
+    "glob",
+    "web_fetch",
+    "web_search",
+    "tool_search",
+    "@kirocrew-cron",
+    "@kirocrew-core"
+  ],
+  "allowedTools": [
+    "web_fetch",
+    "web_search",
+    "@kirocrew-core",
+    "@kirocrew-cron/cron_list"
+  ],
+  "prompt": "file://$HOME/.kiro/crew/prompts/hyperresearch.md",
+  "resources": [
+    "skill://~/.kiro/crew/skills/hyr-research/SKILL.md"
+  ]
+}

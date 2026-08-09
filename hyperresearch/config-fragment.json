@@ -1,0 +1,14 @@
+{
+  "_comment": "Merge this into ~/.kiro/crew/config.json under the 'agents' key",
+  "agents": {
+    "hyperresearch": {
+      "kiro_agent": "hyperresearch",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Deep research agent using V8 pipeline — 16-step tier-adaptive from 30-min answers to adversarially-audited reports",
+      "triggers": "deep research, hyperresearch, research report, literature review, comprehensive analysis, multi-source synthesis",
+      "source": "kirocrew-ports"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_comment": "Merge this into ~/.kiro/crew/config.json under the 'agents' key",
+  "agents": {
+    "marketingcrew": {
+      "kiro_agent": "marketingcrew",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Marketing Crew orchestrator — manages product context and routes to specialists",
+      "triggers": "marketing, help with marketing, marketing crew, cmo, marketing help, marketing strategy",
+      "source": "kirocrew-ports"
+    },
+    "mkt-seo": {
+      "kiro_agent": "mkt-seo",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "SEO & Content specialist",
+      "triggers": "seo, search optimization, rankings, organic traffic, keywords, schema markup, ai seo, aso, app store optimization",
+      "source": "kirocrew-ports"
+    },
+    "mkt-cro": {
+      "kiro_agent": "mkt-cro",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "CRO specialist",
+      "triggers": "conversion, cro, landing page, signup flow, onboarding, popup, paywall, conversion rate",
+      "source": "kirocrew-ports"
+    },
+    "mkt-copy": {
+      "kiro_agent": "mkt-copy",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Content & Copy specialist",
+      "triggers": "copywriting, copy, email sequence, social media, video script, ad copy, content writing, cold email",
+      "source": "kirocrew-ports"
+    },
+    "mkt-paid": {
+      "kiro_agent": "mkt-paid",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Paid & Measurement specialist",
+      "triggers": "paid ads, google ads, facebook ads, meta ads, analytics, attribution, ppc, a/b testing, ab testing",
+      "source": "kirocrew-ports"
+    },
+    "mkt-growth": {
+      "kiro_agent": "mkt-growth",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Growth & Retention specialist",
+      "triggers": "growth, referral, churn, retention, community, lead magnet, partnership, influencer",
+      "source": "kirocrew-ports"
+    },
+    "mkt-sales": {
+      "kiro_agent": "mkt-sales",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Sales & GTM specialist",
+      "triggers": "sales enablement, revops, pricing, launch, competitor, pr, public relations, prospecting, pitch deck",
+      "source": "kirocrew-ports"
+    },
+    "mkt-strategy": {
+      "kiro_agent": "mkt-strategy",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Strategy & Research specialist",
+      "triggers": "marketing strategy, marketing plan, customer research, marketing ideas, marketing psychology, growth loops",
+      "source": "kirocrew-ports"
+    },
+    "mkt-council": {
+      "kiro_agent": "mkt-council",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
+      "description": "Advisory Council — 12 legendary marketer personas",
+      "triggers": "council, advisory board, what would hormozi say, multiple perspectives, debate this, marketing legends",
+      "source": "kirocrew-ports"
+    }
+  }
+}
