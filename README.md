@@ -92,6 +92,45 @@ cp <port>/prompts/*.md ~/.kiro/crew/prompts/
 
 ---
 
+## Post Install Procedure
+
+After installing a port, **review the agent model configurations** to match your subscription and preferences.
+
+### Check Installed Agents
+
+```bash
+# List installed agents from this port
+ls ~/.kiro/agents/mkt-*.json ~/.kiro/agents/marketingcrew.json 2>/dev/null
+ls ~/.kiro/agents/hyperresearch.json 2>/dev/null
+```
+
+### Review Model Settings
+
+Each agent JSON file contains a `model` field. The defaults use high-capability models, but you may want to adjust based on:
+
+- **Your API subscription tier** (some models require specific plans)
+- **Cost optimization** (smaller models for simpler tasks)
+- **Speed vs quality tradeoffs**
+
+```bash
+# Check current model for an agent
+cat ~/.kiro/agents/mkt-seo.json | grep model
+
+# Or review in the KiroCrew dashboard:
+# Settings → Agents → [agent name] → Model
+```
+
+### Common Model Alternatives
+
+| Default | Lighter Alternative | Use Case |
+|---------|---------------------|----------|
+| `claude-sonnet-4-20250514` | `claude-haiku-3-20240307` | Cost-sensitive tasks |
+| `claude-opus-4-20250514` | `claude-sonnet-4-20250514` | Balance cost/quality |
+
+Edit the agent JSON directly or use the KiroCrew dashboard to change models.
+
+---
+
 ## KiroCrew Architecture Quick Reference
 
 Understanding where files go:
