@@ -34,6 +34,12 @@ No Python packages. No npm. No CLIs to install. Just markdown skill files and JS
 | **[HyperResearch](./hyperresearch/)** | [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | 18 skills, 1 agent | ✅ Complete |
 | **[MarketingSkills](./marketingskills/)** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 9 agents, 9 prompts | ✅ Complete |
 
+<p align="center">
+  <img src="./assets/hyperreasearch-output example.png" alt="HyperResearch Output Example" width="700">
+  <br>
+  <em>Example: HyperResearch generating a 5,460-word research report with 50 citations</em>
+</p>
+
 ---
 
 ## Installation
@@ -95,6 +101,12 @@ cp <port>/prompts/*.md ~/.kiro/crew/prompts/
 ## Post Install Procedure
 
 After installing a port, **review the agent model configurations** to match your subscription and preferences.
+
+<p align="center">
+  <img src="./assets/hyperreasearch-agent-model.png" alt="Agent Configuration in Dashboard" width="700">
+  <br>
+  <em>KiroCrew Dashboard: Agent configuration with model selection and skills</em>
+</p>
 
 ### Check Installed Agents
 
