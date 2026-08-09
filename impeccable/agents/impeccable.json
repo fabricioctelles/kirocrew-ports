@@ -1,0 +1,24 @@
+{
+  "name": "impeccable",
+  "description": "Frontend design specialist — audits, critiques, polishes, and improves UI/UX using the Impeccable design methodology",
+  "model": "claude-sonnet-4-20250514",
+  "prompt": "file://$HOME/.kiro/crew/prompts/impeccable.md",
+  "skills": [
+    "impeccable"
+  ],
+  "triggers": [
+    "design review",
+    "ui audit",
+    "ux critique",
+    "polish the ui",
+    "improve the design",
+    "frontend design",
+    "make it bolder",
+    "design system",
+    "typography fix",
+    "layout issues",
+    "animate this",
+    "colorize",
+    "distill the ui"
+  ]
+}

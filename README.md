@@ -33,6 +33,7 @@ No Python packages. No npm. No CLIs to install. Just markdown skill files and JS
 |:-----|:-----------------|:-----------|:-------|
 | **[HyperResearch](./hyperresearch/)** | [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | 18 skills, 1 agent | ✅ Complete |
 | **[MarketingSkills](./marketingskills/)** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 9 agents, 9 prompts | ✅ Complete |
+| **[Impeccable](./impeccable/)** | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 1 agent, 1 skill (23 commands) | ✅ Complete |
 
 <p align="center">
   <img src="./assets/hyperreasearch-output example.png" alt="HyperResearch Output Example" width="700">
