@@ -38,13 +38,30 @@ No Python packages. No npm. No CLIs to install. Just markdown skill files and JS
 
 ## Installation
 
-### Quick Start (Single Port)
+### Let KiroCrew Do It For You
+
+The easiest way to install a port is to ask your KiroCrew agent:
+
+```
+Clone the kirocrew-ports repo from GitHub (fabricioctelles/kirocrew-ports) 
+and install the HyperResearch port for me
+```
+
+or for MarketingSkills:
+
+```
+Install the MarketingSkills port from fabricioctelles/kirocrew-ports
+```
+
+KiroCrew will clone the repo, run the install script, and configure everything automatically.
+
+### Quick Start (Manual)
 
 Each port has its own install script:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/kirocrew-ports.git
+git clone https://github.com/fabricioctelles/kirocrew-ports.git
 cd kirocrew-ports
 
 # Install HyperResearch (skills-based)
