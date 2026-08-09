@@ -2,10 +2,44 @@
   "name": "impeccable",
   "description": "Frontend design specialist — audits, critiques, polishes, and improves UI/UX using the Impeccable design methodology",
   "model": "claude-sonnet-4-20250514",
-  "prompt": "file://$HOME/.kiro/crew/prompts/impeccable.md",
-  "skills": [
-    "impeccable"
+  "tools": [
+    "execute_bash",
+    "fs_read",
+    "fs_write",
+    "code",
+    "grep",
+    "glob",
+    "web_fetch",
+    "web_search",
+    "tool_search",
+    "@playwright-mcp",
+    "@kirocrew-core"
   ],
+  "allowedTools": [
+    "web_fetch",
+    "web_search",
+    "@playwright-mcp",
+    "@kirocrew-core"
+  ],
+  "resources": [
+    "skill://~/.kiro/crew/skills/impeccable/SKILL.md"
+  ],
+  "mcpServers": {
+    "playwright-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic-ai/playwright-mcp@latest"
+      ]
+    },
+    "kirocrew-core": {
+      "command": "$HOME/.kiro/crew-venv/bin/kirocrew",
+      "args": [
+        "mcp-core"
+      ]
+    }
+  },
+  "prompt": "file://$HOME/.kiro/crew/prompts/impeccable.md",
   "triggers": [
     "design review",
     "ui audit",

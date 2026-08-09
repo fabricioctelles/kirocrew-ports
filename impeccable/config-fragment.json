@@ -1,28 +1,13 @@
 {
   "agents": {
     "impeccable": {
-      "name": "impeccable",
+      "kiro_agent": "impeccable",
+      "workspace": "default",
+      "memory_store": "default",
+      "model": "",
       "description": "Frontend design specialist — audits, critiques, polishes, and improves UI/UX using the Impeccable design methodology",
-      "model": "claude-sonnet-4-20250514",
-      "prompt": "file://$HOME/.kiro/crew/prompts/impeccable.md",
-      "skills": [
-        "impeccable"
-      ],
-      "triggers": [
-        "design review",
-        "ui audit",
-        "ux critique",
-        "polish the ui",
-        "improve the design",
-        "frontend design",
-        "make it bolder",
-        "design system",
-        "typography fix",
-        "layout issues",
-        "animate this",
-        "colorize",
-        "distill the ui"
-      ]
+      "triggers": "design review, ui audit, ux critique, polish the ui, improve the design, frontend design, make it bolder, design system, typography fix, layout issues, animate this, colorize, distill the ui",
+      "source": "kirocrew-ports"
     }
   }
 }
